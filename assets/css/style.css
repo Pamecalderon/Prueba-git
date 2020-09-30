@@ -1,0 +1,20 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #413D3C;
+   
+}
+
+h1 {
+    font-weight: 600;
+}
+
+header {
+    background-image: url('../img/bg_hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10rem;
+    }
+
+.borde{
+    border-top: 1px solid #ffffff;
+}
