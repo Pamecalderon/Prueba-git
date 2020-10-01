@@ -1,20 +1,59 @@
 body {
     font-family: 'Poppins', sans-serif;
-    color: #413D3C;
+    color: #ffffff;
    
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 500;
 }
 
-header {
-    background-image: url('../img/bg_hero.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 10rem;
-    }
+h2 {font-weight: 400;
 
-.borde{
-    border-top: 1px solid #ffffff;
+}
+
+h5 {
+    color:  #272626;
+    
+}
+
+h6 {
+    font-weight: 400;
+    color:  #272626;
+    font-size: 3rem;
+}
+
+p {
+    font-weight: 400;
+    color: #252222;
+}
+
+
+
+.herosection {
+    padding-top: 3rem;
+}
+
+.jumboheader {
+    background-image: url('../img/bg_hero.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+}
+
+.bio {
+    padding: 2rem 2rem;
+}
+
+.icons-section h2 {
+    font-size: 3rem;
+}
+
+.footredes a {
+    color: #ffffff
+    
+}
+a :hover {
+    color: #272626;
 }

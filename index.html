@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <title>Portafolio Pamela</title>
     <!-- CSS de bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Google fonts -->
@@ -19,7 +20,7 @@
 <!-- Nav -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand logo" href="#"><h1>M</h1></a>
+      <a class="navbar-brand logo" href="#"><i class="far fa-smile fa-2x"></i></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
@@ -41,18 +42,170 @@
       </div>
       </div>
 </nav>
+<!-- Header -->
+<header class="text-center mt-5">
+  <div class="jumbotron mb-0 jumboheader">
+    <div class="herosection">
+    <h2 class="m-0">Hola!</h2>
+    <h1>Soy Pamela</h1> 
+    </div>
+  </div>
+</header>
 
-<header class="hero text-light text-center pt-5 mt-5">
-    <div class="container">
-      <p class="font-weight-bold">Yo soy</p>
-      <div class="borde"></div>
-      <h1 class="my-5">Pamela</h1> 
+<!-- Bio-->
+<div class="bio container-fluid text-center bg-info">
+  <h2 class="h5 my-4">Soy Diseñadora gráfica de profesión y siempre tuve especial interés por explorar la creatividad.</h2>
+</div>
+
+<!-- Mis trabajos -->
+<section id="work" class="container-fluid p-5">
+  <h6 class="text-center font-weight-bold mt-2 py-4">Mis trabajos</h6>
+  <div class="card-deck">
+    <div class="card">
+      <img src="assets/img/caramelo.png" class="card-img-top" alt="caramelo">
+      <div class="card-body">
+        <h5 class="card-title">Caramelo Retro</h5>
+        <p class="card-text">Desarrollo de imagen de marca para pyme que se dedica a vender caramelos de hace unos años.</p>
+        <a href="#" class="btn btn-outline-info mr-4" data-toggle="modal" data-target="#caramelo">ver más</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="assets/img/catalogo.png" class="card-img-top" alt="Catalogo">
+      <div class="card-body">
+        <h5 class="card-title">Masprot</h5>
+        <p class="card-text">Desarrollo e impresión de catálogo de productos para la empresa Masprot</p>
+        <a href="#" class="btn btn-outline-info mr-4" data-toggle="modal" data-target="#catalogo">ver más</a> 
+      </div>
+    </div>
+    <div class="card">
+      <img src="assets/img/awisha.png" class="card-img-top" alt="awisha">
+      <div class="card-body">
+        <h5 class="card-title">Awisha</h5>
+        <p class="card-text"> Creación de logo para marca de indumentaria especializada en generar textiles con tecnicas ancestrales</p>
+        <a href="#" class="btn btn-outline-info mr-4" data-toggle="modal" data-target="#awisha">ver más</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-deck my-4">
+    <div class="card">
+      <img src="assets/img/funnyway.png" class="card-img-top" alt="ingles">
+      <div class="card-body">
+        <h5 class="card-title">Diseños de juego</h5>
+        <p class="card-text">Diseño de juego para aprender inglés de una forma mas facil y entretenida.</p>
+        <a href="#" class="btn btn-outline-dark mr-4" data-toggle="modal" data-target="#ingles">ver más</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="assets/img/ladespensa.png" class="card-img-top" alt="Catalogo">
+      <div class="card-body">
+        <h5 class="card-title">La despensa</h5>
+        <p class="card-text">Desarrollo y creación de imagen corporativa para La Despensa.</p>
+        <a href="#" class="btn btn-outline-dark mr-4" data-toggle="modal" data-target="#despensa">ver más</a> 
+      </div>
+    </div>
+    <div class="card">
+      <img src="assets/img/postales.png" class="card-img-top" alt="awisha">
+      <div class="card-body">
+        <h5 class="card-title">Postales para tienda Cómodo</h5>
+        <p class="card-text">Diseño de serie de postales con motivo de lanzamiento de la que fue la colección de muebles de tienda Cómodo.</p>
+        <a href="#" class="btn btn-outline-dark mr-4" data-toggle="modal" data-target="#postales">ver más</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="caramelo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Caramelo Retro</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/caramelo.png" class="img-fluid my-3" alt="caramelo">
+        <p>Desarrollo de imagen corporativa para pyme. Uso de colores brillantes y llamativos que intentan apelar a la emocionalidad del ser niño y recordar los tiempos de antaño</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <div class="modal fade" id="catalogo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Catálogo de productos Masprot</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/img/catalogo.png" class="img-fluid my-3" alt="catalogo">
+          <p>Desarrollo e impresión de catálogo de productos para la empresa Masprot</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="awisha" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Awisha</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/img/awisha.png" class="img-fluid my-3" alt="awisha">
+          <p>Prendas y accesorios del rubro Prêt-à-porter que rescatan técnicas de tejido prehispánico del norte de Chile.
+            Inspirada en la indumentaria utilizada entre el 1000 al 1500 DC en la costa y el valle de Arica.
+            Por las culturas San Miguel y Gentilar.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Formulario Contacto -->
+<section id="contact" class="container">
+  <h6 class="text-center font-weight-bold mt-4">¡Escríbeme!</h6>
+    <div class="text-center my-4">
+    <p>¿Necesitas asesoría, cotizar un proyecto de diseño o quieres pasar a decir hola? ingresa tu dudas y me pondré en contacto! </p>
     </div>
 
-  </header>
+    <div class="typeform-widget" data-url="https://form.typeform.com/to/X1uFuIIz" data-transparency="24" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=X1uFuIIz&utm_source=typeform.com-01EJVE39R0X2SN9EHSCNB2PF07-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
 
+</section>
 
-
+<!-- Footer -->
+<section class="footredes text-white bg-info text-center">
+  <div class="container py-5 mx-auto">
+      <div class="row">
+          <div class="col-12 col-md-4 align-self-center">
+              <h6 class="font-weight-bold text-white">Mis redes:</h6>
+          </div>
+          <div class="col-12 col-md-4">
+              <a href="https://www.linkedin.com/in/pamelacalderon/" target="_blank"><i class="fab fa-linkedin fa-2x mx-1"></i></a>
+              <a href="https://www.instagram.com/pamecalderon/" target="_blank"><i class="fab fa-instagram fa-2x mx-1"></i></a>
+              <a href="https://www.facebook.com/Pamecalderonbarra/" target="_blank"><i class="fab fa-facebook-square fa-2x mx-1"></i></a>
+              <a href="https://www.linkedin.com/in/pamelacalderon/" target="_blank"><i class="fab fa-whatsapp-square fa-2x mx-1"></i></a>  
+          </div>
+      </div>
+  </div>
+</section>
 
 <!--Scripts-->
 <!-- jQuery 3.5.1 sin slim-->
