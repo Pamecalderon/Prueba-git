@@ -34,12 +34,20 @@ p {
     padding-top: 3rem;
 }
 
-.jumboheader {
+.hero {
     background-image: url('../img/bg_hero.jpg');
     background-size: cover;
     background-position: center;
-    width: 100%;
+    height: 600px;
+    margin-top: 5%;
+    position: relative; /*para contener elemenntos absoutos */
     
+}
+
+.absoluta {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
 }
 
 .bio {
