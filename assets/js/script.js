@@ -4,19 +4,19 @@ $(function(){
     if (this.hash !== "") {
         event.preventDefault();
     
-        var gato = this.hash;
+        var signo = this.hash;
     
         $("html, body").animate({
-            scrollTop: $(gato).offset().top
+            scrollTop: $(signo).offset().top
         }, 800, function(){
-            window.location.hash = gato;
+            window.location.hash = signo;
         });
     }
     });
        
     $('[data-toggle="popover"]').popover();
 
-    $('[data-toggle="tooltip"]').tooltip()
+     $('[data-toggle="tooltip"]').tooltip()
 
     
     });

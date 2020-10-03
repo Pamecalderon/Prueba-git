@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" type="image/png" href="assets/img/FAVICON.png">
     <title>Portafolio Pamela</title>
     <!-- CSS de bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -30,10 +30,10 @@
             <a class="nav-link text-white" href="#about">Sobre mi <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#work">Experiencia</a>
+            <a class="nav-link text-white" href="#experience">Experiencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#nosotros">Trabajos</a>
+            <a class="nav-link text-white" href="#work">Trabajos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#contact">Contacto</a>
@@ -43,21 +43,74 @@
       </div>
 </nav>
 <!-- Header -->
-
 <header class="hero text-light text-center pt-5 mt-5">
-  <div class="container absoluta">
-    <h2 class="font-weight-bold">¡Hola!</h2>
-    <h1 class="pb-5">Soy Pamela</h1>
+  <div class="container">
+      <div class="absoluta">
+      <h2>¡Hola!</h2>
+      <h1 class="pb-5">Soy Pamela</h1>
+    </div>
   </div>
 </header>
 
-<!-- Bio-->
-<div class="bio container-fluid text-center bg-info">
-  <h2 class="h5 my-4">Soy Diseñadora gráfica de profesión y siempre tuve especial interés por explorar la creatividad.</h2>
+
+<div class="intro container-fluid text-center bg-info">
+  <h3 class="my-4 px-5">Te invito a este rincón del ciberespacio para conocer acerca de mi trabajo y mis intereses</h3>
 </div>
 
+<!-- Bio-->
+<section id="about" class="d-none d-sm-block container text-center">
+  <h6 class="text-center font-weight-bold mt-2 py-4">Acerca de mí</h6>
+  <h3 class="text-dark">Soy Diseñadora gráfica de profesión con un especial interés y curiosidad por explorar la creatividad.</h3>
+
+  <div class="row">
+    <div class="col-md-6 mt-5">
+      <p class="text-justify">Los primeros signos de mi afinidad hacia la creatividad y "lo visual" comenzaron en el colegio y se hicieron mas tangibles cuando noté que disfrutaba las artes plásticas, tecnicas manuales y el papel maché, mientras que para el resto era el momento perfecto para hacer cualquier cosa que fuese no estar en esas clases. Decorar el diario mural me era un ARTE.</p>  
+    </div>
+
+    <div class="col-md-6 mt-5">
+      <p class="text-justify">De mayor y un poco más consciente de mis interesés intenté silenciarlos por intentar enfocarme en una carrera profesional "tradicional", afortunadamente fracasé en ese intento y aquí estoy ejerciendo felizmente el diseño gráfico.</p>  
+    </div> 
+
+  </div>
+ </section>
+
+<!-- Experiencia laboral-->
+<section id="experience" class="container">
+  <h6 class="text-center font-weight-bold mt-2 py-4">Experiencia laboral</h6>
+    <div class="row row-cols-1 row-cols-md-3">
+      <div class="col mb-4">
+        <div class="card h-50 border-0">
+          <img src="assets/img/fp.png" class="card-img-top" alt="Fashionspark">
+          <div class="card-body text-center">
+            <h5 class="card-title m-0">Fashions Park </h5>
+            <p>2018-2020</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100 border-0">
+          <img src="assets/img/velutti.png" class="card-img-top" alt="velutti">
+          <div class="card-body text-center">
+            <h5 class="card-title m-0">Velutti</h5>
+            <p>2016-2018</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100 border-0">
+          <img src="assets/img/creative.png" class="card-img-top" alt="mascreative">
+          <div class="card-body text-center">
+            <h5 class="card-title m-0">+Creative</h5>
+            <p>2015-2016</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+
 <!-- Mis trabajos -->
-<section id="work" class="container-fluid px-5">
+<section id="work" class="container-fluid contenedor px-5">
   <h6 class="text-center font-weight-bold mt-2 py-4">Mis trabajos</h6>
   <div class="card-deck">
     <div class="card">
@@ -65,7 +118,7 @@
       <div class="card-body">
         <h5 class="card-title">Caramelo Retro</h5>
         <p class="card-text">Desarrollo de imagen de marca para pyme que se dedica a vender caramelos de hace unos años.</p>
-        <a href="#" class="btn btn-outline-info mr-4" data-toggle="modal" data-target="#caramelo">ver más</a>
+        <a href="#" class="btn btn-outline-dark mr-4" data-toggle="modal" data-target="#caramelo">ver más</a>
       </div>
     </div>
     <div class="card">
@@ -73,7 +126,7 @@
       <div class="card-body">
         <h5 class="card-title">Masprot</h5>
         <p class="card-text">Desarrollo e impresión de catálogo de productos para la empresa Masprot</p>
-        <a href="#" class="btn btn-outline-info mr-4" data-toggle="modal" data-target="#catalogo">ver más</a> 
+        <a href="#" class="btn btn-outline-dark mr-4" data-toggle="modal" data-target="#catalogo">ver más</a> 
       </div>
     </div>
     <div class="card">
@@ -81,7 +134,7 @@
       <div class="card-body">
         <h5 class="card-title">Awisha</h5>
         <p class="card-text"> Creación de logo para marca de indumentaria especializada en generar textiles con tecnicas ancestrales</p>
-        <a href="#" class="btn btn-outline-info mr-4" data-toggle="modal" data-target="#awisha">ver más</a>
+        <a href="#" class="btn btn-outline-dark mr-4" data-toggle="modal" data-target="#awisha">ver más</a>
       </div>
     </div>
   </div>
@@ -240,9 +293,9 @@
 </div>
 
 <!-- Formulario Contacto -->
-<section id="contact" class="container">
+<section id="contact" class="container contenedor">
   <h6 class="text-center font-weight-bold mt-4">¡Escríbeme!</h6>
-    <div class="text-center my-4">
+    <div class="my-4">
     <p>¿Necesitas asesoría, cotizar un proyecto de diseño o quieres pasar a decir hola? ingresa tu dudas y me pondré en contacto! </p>
     </div>
 
@@ -254,15 +307,29 @@
 <section class="footredes text-white bg-info text-center">
   <div class="container py-5 mx-auto">
       <div class="row">
-          <div class="col-12 col-md-4 align-self-center">
+          <div class="col-sm-12 col-md-4 align-self-center">
               <h6 class="font-weight-bold text-white">Mis redes:</h6>
           </div>
-          <div class="col-12 col-md-4">
-              <a href="https://www.linkedin.com/in/pamelacalderon/" target="_blank"><i class="fab fa-linkedin fa-2x mx-1" data-toggle="tooltip" data-placement="bottom" title="Linkedin"></i></a>
-              <a href="https://www.instagram.com/pamecalderon/" target="_blank"><i class="fab fa-instagram fa-2x mx-1" data-toggle="tooltip" data-placement="bottom" title="Instragram"></i></a>
-              <a href="https://www.facebook.com/Pamecalderonbarra/" target="_blank"><i class="fab fa-facebook-square fa-2x mx-1" data-toggle="tooltip" data-placement="bottom" title="Facebook"></i></a>
-              <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp-square fa-2x mx-1"data-toggle="tooltip" data-placement="bottom" title="Whatsapp"></i></a>  
+
+          <div class="col-sm-12 col-md-8 px-5">
+          <div class="row">
+              <div class="col-3">
+                <a href="https://www.linkedin.com/in/pamelacalderon/" target="_blank"><i class="fab fa-linkedin fa-3x" data-toggle="tooltip" data-placement="bottom" title="Linkedin"></i></a>
+              </div>
+
+              <div class="col-3">
+                <a href="https://www.instagram.com/pamecalderon/" target="_blank"><i class="fab fa-instagram fa-3x" data-toggle="tooltip" data-placement="bottom" title="Instragram"></i></a>
+              </div>
+
+              <div class="col-3">
+                <a href="https://www.facebook.com/Pamecalderonbarra/" target="_blank"><i class="fab fa-facebook-square fa-3x" data-toggle="tooltip" data-placement="bottom" title="Facebook"></i></a>
+              </div>
+
+              <div class="col-3">
+                <a href="https://www.behance.net/pamelacalderon" target="_blank"><i class="fab fa-behance-square fa-3x"></i><data-toggle="tooltip" data-placement="bottom" title="Behance"></i></a>  
+              </div>
           </div>
+        </div>
       </div>
   </div>
 </section>
